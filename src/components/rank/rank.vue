@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-       hello
+       排名
   </div>
 </template>
 

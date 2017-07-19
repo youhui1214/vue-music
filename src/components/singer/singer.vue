@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-       hello
+       歌手
   </div>
 </template>
 

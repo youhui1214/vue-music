@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-       hello
+       搜索
   </div>
 </template>
 
