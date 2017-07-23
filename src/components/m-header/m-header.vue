@@ -1,7 +1,10 @@
 <template>
   <div class="m-header">
-       <div class="icon"></div>
-       <div class="text">Chicken Music</div>
+    <div class="icon"></div>
+    <div class="text">You Music</div>
+    <router-link to="/user" class="mine" tag="div">
+      <i class="icon-mine"></i>
+    </router-link>
   </div>
 </template>
 

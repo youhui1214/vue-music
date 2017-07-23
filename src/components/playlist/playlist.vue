@@ -45,10 +45,11 @@
   import {playMode} from 'common/js/config'
   import Scroll from 'base/scroll/scroll'
   import Confirm from 'base/confirm/confirm'
-  // import AddSong from 'components/add-song/add-song'
   import {playerMixin} from 'common/js/mixin'
+  import AddSong from 'components/add-song/add-song'
 
   export default {
+    name: 'playlist',
     mixins: [playerMixin],
     data() {
       return {
@@ -127,7 +128,7 @@
     components: {
       Scroll,
       Confirm,
-
+      AddSong
     }
   }
 </script>
